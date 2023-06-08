@@ -33,8 +33,8 @@
 }
 
 html,body {
-  display: flex;
-  flex-direction: column;
+/*   display: flex;
+  flex-direction: column; */
 
   font-family: "DM Sans", sans-serif;
   letter-spacing: -0.5px;
@@ -56,9 +56,15 @@ html,body {
   max-width: 1200px;
 }
 
-/* Header */
+#root {
+  min-height: 100vh;
+}
 
-
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 
 /* Btn */
 
@@ -173,25 +179,7 @@ html,body {
   row-gap: 30px;
 }
 
-.project {
-  max-width: 370px;
-  background-color: var(--page-bg);
-  border-radius: 10px;
-  box-shadow: var(--shadow);
-}
 
-.project__img {
-  border-radius: 10px;
-}
-
-.project__title {
-  padding: 15px 20px;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 1.3;
-  text-align: center;
-  color: var(--text-color);
-}
 
 /* Project details */
 

@@ -6,7 +6,9 @@ import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Contacts from './pages/Contacts';
 import ProjectPage from './pages/ProjectPage';
+import Skills from './pages/Skills';
 import './styles/main.css';
+import ScrollToTop from './utils/scrollToTop';
 
 
 
@@ -15,13 +17,16 @@ function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop />
+
         <Navbar />
 
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contacts" element={<Contacts />} />
-          <Route path="/projectPage" element={<ProjectPage />} />
+          <Route path="/project_page" element={<ProjectPage />} />
+          <Route path="/skills" element={<Skills />} />
         </Routes>
         
         <Footer />

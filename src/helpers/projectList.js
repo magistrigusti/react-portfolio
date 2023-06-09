@@ -1,5 +1,6 @@
 
 import activeBox from '../img/projects/activebox.png';
+
 import goTrip from '../img/projects/gotrip.png';
 import japanTravel from '../img/projects/japan-travel.png';
 import mogo from '../img/projects/mogo.png';

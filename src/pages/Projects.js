@@ -11,9 +11,13 @@ const Projects = () => {
 
           <ul className='projects'>
             {
-              console.log(projects[0])
+              projects.map((project ,id) => {
+                return (
+                  <Project key={id} title={project.title} img={project.img} />
+                )
+              })
             }
-            <Project />
+            
           </ul>
         </div>
       </main>

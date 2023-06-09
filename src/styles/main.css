@@ -92,29 +92,6 @@ html,body {
   top: 1px;
 }
 
-.btn-outline {
-  display: flex;
-  column-gap: 10px;
-  align-items: 10px;
-
-  height: 48px;
-  border: 1px solid var(--black);
-  border-radius: 5px;
-  color: var(--black);
-  background-color:var(--white);
-  padding: 12px 20px;
-
-  transition: opacity 0.2s ease-in;
-}
-
-.btn-outline:hover {
-  opacity: 0.8;
-} 
-
-.btn-outline:active {
-  position: relative;
-  top: 2px;
-}
 
 /* Btn Slider */
 

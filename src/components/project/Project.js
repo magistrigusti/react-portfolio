@@ -1,13 +1,15 @@
 import React from 'react';
 import './Project.css';
 import '../../styles/main.css';
-import mogo from '../../img/projects/mogo.png';
 
-const Project = () => {
+
+const Project = ({ title, img }) => {
   return (
     <li className='project'>
       <a href='./project-page.html'>
-        <img className='project__img' src={mogo} alt='Project Mogo' />
+        <img className='project__img' src={img} alt={title} />
+
+        <h3 className='project__title'>{title}</h3>
       </a>
     </li>
   )

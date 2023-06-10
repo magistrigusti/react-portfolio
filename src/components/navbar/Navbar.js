@@ -16,8 +16,6 @@ const Navbar = () => {
               portfolio  react
           </NavLink>
 
-          <BtnDarkMode />
-
           <ul className='nav-list'>
             <li className='nav-list__item'>
               <NavLink to="/projects" className={({isActive}) => isActive ? activeLink : normalLink }>Projects</NavLink>
@@ -29,6 +27,8 @@ const Navbar = () => {
               <NavLink to="/contacts" className={({isActive}) => isActive ? activeLink : normalLink }>Contacts</NavLink>
             </li>
           </ul>
+
+          <BtnDarkMode />
         </div>
       </nav>
   );

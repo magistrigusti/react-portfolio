@@ -1,22 +1,24 @@
 import React from 'react';
-import { projects } from '../../helpers/projectList';
+import {Carousel} from './Carusel';
+import './Slider.css';
 
-const Slider = ({ imgSlider }) => {
+
+export default function Slider () {
   return (
-    <div>
-      <div className="slider" id="slider">
-        <img className="project-details__cover" src={projects.imgSlider[0]} alt="1" />
-        <img className="project-details__cover" src={projects.imgSlider[1]} alt="2" />
-        <img className="project-details__cover" src={projects.imgSlider[2]} alt="3" />
-        <img className="project-details__cover" src={projects.imgSlider[3]} alt="4" />
-      </div>
-
-      <div className="controls">
-        <button className="btn-slider" id="btnPrev">Back</button>
-        <button className="btn-slider" id="btnNext">Forward</button>
-      </div>
-    </div>
+    <Carousel>
+      <div className="item item-1">item-1</div>
+      <div className="item item-2">item-2</div>
+      <div className="item item-3">item-3</div>
+    </Carousel>
   )
 }
 
-export default Slider;
+<div className='project-details'>
+
+
+          <Slider />
+
+        
+
+        </div>
+

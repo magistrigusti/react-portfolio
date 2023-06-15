@@ -1,0 +1,26 @@
+
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+.item-1 {
+  background-image: url(./activebox/activebox-1.png);
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.item-2 {
+  background-image: url(./activebox/activebox-4.png);
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.item-3 {
+  background-image: url(./activebox/activebox-3.png);
+  width: 100%;
+  background-repeat: no-repeat;
+}

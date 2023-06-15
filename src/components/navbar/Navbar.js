@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className='nav-row'>
           <NavLink to="/" className='logo'>
             <strong className='strong'>Demetrii  </strong>
-              portfolio  react
+              portfolio  React
           </NavLink>
 
           <ul className='nav-list'>

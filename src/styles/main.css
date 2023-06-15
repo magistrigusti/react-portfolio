@@ -162,7 +162,7 @@ html,body {
 
 .project-details {
   margin: 0 auto;
-  max-width: 865px;
+  max-width: 100%;
 
   display: flex;
   flex-direction: column;
